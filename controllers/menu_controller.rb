@@ -97,7 +97,6 @@ class MenuController
         puts "#{selection} is not a valid input"
         view_entry_number
     end
-
   end
 
   def read_csv
