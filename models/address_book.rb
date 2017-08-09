@@ -7,6 +7,14 @@ class AddressBook
     def initialize
       @entries = []
     end
+    
+  
+  def purge
+    
+    @entries.clear
+    
+  end
+  
 
   def add_entry(name, phone_number, email)
     index = 0

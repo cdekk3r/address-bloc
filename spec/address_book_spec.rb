@@ -230,5 +230,16 @@ RSpec.describe AddressBook do
       end
     
   end
-     
+  
+  
+  describe "#purge" do
+  
+    it "deletes all entries" do
+      book.purge
+
+      expect(book.entries.size).to eq(0)
+    end
+  
+  end
+  
 end

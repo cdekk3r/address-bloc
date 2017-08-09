@@ -48,8 +48,8 @@ class MenuController
         system "clear"
         puts "Sorry, that is not a valid input"
         main_menu
-      end
     end
+  end
 
   def view_all_entries
     address_book.entries.each do |entry|
